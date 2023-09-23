@@ -47,7 +47,7 @@ p1 <- ggplot(data = team_data,
 p1
 ```
 
-The favourite colour of each person
+The favourite number of each person with their favourite colour used for the bar
 
 ### Exercises 19
 
@@ -59,7 +59,7 @@ p1 + labs(x = "github username",
           title = "favourite number of each user")
 ```
 
-bar chart showing the fqvourite number of each user
+labs() allows axis labels and plot titles to be added
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-display using a table
+bad data visualization as there is no overlap between favourite hobbies so all measuring 1 on y axis. with more data there will be more x axis variables and likely few if any being repeated
